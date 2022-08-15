@@ -1,0 +1,9 @@
+{
+  "name": "wikimedia-stream-source-connector",
+  "config": {
+    "connector.class": "com.github.gustavoflor.kafkaconnectwikimediastream.WikimediaStreamSourceConnector",
+    "wikimedia.event": "recentchange",
+    "tasks.max": "1",
+    "topic": "another-topic"
+  }
+}
